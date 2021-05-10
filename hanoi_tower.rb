@@ -30,7 +30,7 @@ begin
   # Checks if user inpputed correct number
   if tower_height >= 1
     # Calls function and prints "Done"
-    tower_hanoi(tower_height, 'A', 'B', 'C')
+    tower_hanoi(tower_height, 'A', 'C', 'B')
     puts "\nDone"
   else
     # Asks user to input other number
